@@ -3,12 +3,12 @@
 int main() {
 
     char estado;
-    char codigoCarta[5];
-    char nomeCidade[10];
-    int populacao;
-    float area;
-    float pib;
-    int pontosTuristicos;
+    char codigoCarta1[5], codigoCarta2[5];
+    char nomeCidade1[10], nomeCidade2[10];
+    int populacao1, populacao2;
+    float area1, area2;
+    float pib1, pib2;
+    int pontosTuristicos1, pontosTuristicos2;
 
     printf("------------------------------------\n");
     printf("Bem-vindos ao Super Trunfo: Cidades! \n");
@@ -24,7 +24,7 @@ int main() {
     scanf("%c", &estado);
 
     printf("Informe o código da carta:");
-    scanf("%s", &codigoCarta);
+    scanf("%s", &codigoCarta1);
 
     
 
