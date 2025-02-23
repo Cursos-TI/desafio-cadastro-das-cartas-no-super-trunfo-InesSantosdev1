@@ -18,10 +18,5 @@ int main() {
     scanf("%c", &estado1);
 
 
-
-    
-
-    
-
     return 0;
 }
