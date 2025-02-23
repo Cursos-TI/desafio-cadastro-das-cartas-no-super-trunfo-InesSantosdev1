@@ -10,8 +10,6 @@ int main() {
     float pib1, pib2; 
     int pontosTuristicos1, pontosTuristicos2;
 
-
-
     printf("------------------------------------\n");
     printf("Bem-vindos ao Super Trunfo: Cidades! \n");
     printf("------------------------------------\n\n");
