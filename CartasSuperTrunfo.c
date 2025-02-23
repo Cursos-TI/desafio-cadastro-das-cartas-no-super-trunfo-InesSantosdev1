@@ -43,6 +43,9 @@ int main() {
     printf("Pontos turisticos: ");
     scanf("%d", &pontosTuristicos1);
 
+    printf("Primeira carta cadastrada com sucesso! \n");
+    printf("Cadastre sua segunda carta.");
+
     printf("Primeira carta\n\n");
     printf("Estado: %c \n", estado1);
     printf("Código: %s \n", codigoCarta1);
