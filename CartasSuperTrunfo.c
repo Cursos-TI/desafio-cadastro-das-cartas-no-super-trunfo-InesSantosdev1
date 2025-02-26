@@ -2,13 +2,20 @@
 
 int main() {
 
-    char estado1, estado2;
-    char codigoCarta1[5], codigoCarta2[5];
-    char nomeCidade1[20], nomeCidade2[20];
-    float populacao1, populacao2;
-    float area1, area2;
-    float pib1, pib2; 
-    int pontosTuristicos1, pontosTuristicos2;
+    char estado1;
+    char estado2;
+    char codigoCarta1[5];
+    char codigoCarta2[5];
+    char nomeCidade1[20];
+    char nomeCidade2[20];
+    float populacao1;
+    float populacao2;
+    float area1;
+    float area2;
+    float pib1;
+    float pib2; 
+    int pontosTuristicos1;
+    int pontosTuristicos2;
 
     printf("------------------------------------\n");
     printf("Bem-vindos ao Super Trunfo: Cidades! \n");
@@ -67,7 +74,7 @@ int main() {
     printf("Pontos turisticos: ");
     scanf("%d", &pontosTuristicos1);
 
-    printf("Cartas cadastradas com sucesso! \n\n");
+    printf("\n\nCartas cadastradas com sucesso! \n\n");
 
     printf("Primeira carta\n\n");
     printf("Estado: %c \n", estado1);
@@ -78,7 +85,7 @@ int main() {
     printf("PIB: %f \n", pib1);
     printf("Pontos Turisticos: %d\n", pontosTuristicos1);
 
-    printf("Primeira carta\n\n");
+    printf("\n\nSegunda carta\n\n");
     printf("Estado: %c \n", estado2);
     printf("Código: %s \n", codigoCarta2);
     printf("Cidade: %s \n", nomeCidade2);
@@ -87,7 +94,7 @@ int main() {
     printf("PIB: %f \n", pib2);
     printf("Pontos Turisticos: %d\n", pontosTuristicos2);
 
-    printf("Bom jogo e boa sorte!");
+    printf("\nBom jogo e boa sorte!");
 
     //fazer a formatação dos numeros reais
 
