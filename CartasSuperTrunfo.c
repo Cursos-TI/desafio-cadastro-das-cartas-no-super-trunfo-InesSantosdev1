@@ -2,20 +2,14 @@
 
 int main() {
 
-    char estado1;
-    char estado2;
-    char codigoCarta1[5];
-    char codigoCarta2[5];
-    char nomeCidade1[20];
-    char nomeCidade2[20];
-    float populacao1;
-    float populacao2;
-    float area1;
-    float area2;
-    float pib1;
-    float pib2; 
-    int pontosTuristicos1;
-    int pontosTuristicos2;
+    char estado1, estado2;
+    char codigoCarta1[5], codigoCarta2[5];
+    char nomeCidade1[20], nomeCidade2[20];
+    int populacao1, populacao2;
+    int pontosTuristicos1, pontosTuristicos2;
+    float area1, area2;
+    float pib1, pib2; 
+      
 
     printf("------------------------------------\n");
     printf("Bem-vindos ao Super Trunfo: Cidades! \n");
@@ -35,44 +29,44 @@ int main() {
     printf("Código: ");
     scanf("%s", codigoCarta1);
 
-    printf("Cidade: ");
+    printf("Cidade (apenas sigla. Ex: SP): ");
     scanf("%s", nomeCidade1);
 
     printf("População: ");
-    scanf("%f", &populacao1);
+    scanf("%d", &populacao1);
 
     printf("Area(km²): ");
-    scanf("%f", &area1);
+    scanf("%.2f", &area1);
 
     printf("PIB: ");
-    scanf("%f", &pib1);
+    scanf("%.2f", &pib1);
 
     printf("Pontos turisticos: ");
-    scanf("%d", &pontosTuristicos1);
+    scanf("%d \n\n", &pontosTuristicos1);
 
-    printf("Cadastre sua segunda carta. \n");
+    printf("Cadastre sua segunda carta. \n\n");
 
     printf("Segunda carta \n\n");
     printf("Estado: ");
-    scanf("%c", &estado1);
+    scanf("%c", &estado2);
 
     printf("Código: ");
-    scanf("%s", codigoCarta1);
+    scanf("%s", codigoCarta2);
 
-    printf("Cidade: ");
-    scanf("%s", nomeCidade1);
+    printf("Cidade (apenas sigla. Ex: SP): ");
+    scanf("%s", nomeCidade2);
 
     printf("População: ");
-    scanf("%f", &populacao1);
+    scanf("%d", &populacao2);
 
     printf("Area(km²): ");
-    scanf("%f", &area1);
+    scanf("%.2f", &area2);
 
     printf("PIB: ");
-    scanf("%f", &pib1);
+    scanf("%.2ff", &pib2);
 
     printf("Pontos turisticos: ");
-    scanf("%d", &pontosTuristicos1);
+    scanf("%d", &pontosTuristicos2);
 
     printf("\n\nCartas cadastradas com sucesso! \n\n");
 
@@ -80,21 +74,21 @@ int main() {
     printf("Estado: %c \n", estado1);
     printf("Código: %s \n", codigoCarta1);
     printf("Cidade: %s \n", nomeCidade1);
-    printf("Popupalção: %f \n", populacao1);
+    printf("Popupalção: %d \n", populacao1);
     printf("Area(km²): %f \n", area1);
     printf("PIB: %f \n", pib1);
-    printf("Pontos Turisticos: %d\n", pontosTuristicos1);
+    printf("Pontos Turisticos: %d\n\n", pontosTuristicos1);
 
-    printf("\n\nSegunda carta\n\n");
+    printf("Segunda carta\n\n");
     printf("Estado: %c \n", estado2);
     printf("Código: %s \n", codigoCarta2);
     printf("Cidade: %s \n", nomeCidade2);
-    printf("Popupalção: %f \n", populacao2);
+    printf("Popupalção: %d \n", populacao2);
     printf("Area(km²): %f \n", area2);
     printf("PIB: %f \n", pib2);
-    printf("Pontos Turisticos: %d\n", pontosTuristicos2);
+    printf("Pontos Turisticos: %d\n\n", pontosTuristicos2);
 
-    printf("\nBom jogo e boa sorte!");
+    printf("Bom jogo e boa sorte!");
 
     //fazer a formatação dos numeros reais
 
