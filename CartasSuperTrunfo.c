@@ -5,10 +5,11 @@ int main() {
     char estado1 = {0}, estado2 = {0};
     char codigoCidade1[20] = {0}, codigoCidade2[20] = {0};
     char cidade1[100], cidade2[100];
-    int populacaoCidade1 = 0, populacaoCidade2 = 0;
-    float areaCidade1 = 0, areaCidade2 = 0; 
+    int populacaoCidade1, populacaoCidade2;
+    float areaCidade1, areaCidade2; 
     float pibCidade1 = 0, pibCidade2 = 0;
     int pontosTuristicos1 = 0, pontosTuristicos2 = 0;
+    float resultadoDensidade1, resultadoDensidade2;
 
     printf("------------------------------------\n");
     printf("Bem-vindos ao Super-Trunfo Cidades! \n");
@@ -46,6 +47,10 @@ int main() {
     printf("Pontos turisticos: ");
     scanf("%d", &pontosTuristicos1);
 
+    resultadoDensidade1 = populacaoCidade1 / areaCidade1;
+    
+    printf("Densidade: %.2f\n", resultadoDensidade1);
+    
     printf("\n\n");
 
     printf("Segunda carta \n\n");
@@ -78,6 +83,10 @@ int main() {
     printf("Pontos Turisticos: ");
     scanf("%d", &pontosTuristicos2);
     getchar();
+
+    resultadoDensidade2 = populacaoCidade1 / areaCidade2;
+    
+    printf("Densidade: %.2f\n", resultadoDensidade2);
 
     return 0;
 }
